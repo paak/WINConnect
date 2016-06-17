@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WINConnect.Common", "WINConnect.Common\WINConnect.Common.shproj", "{F256A877-1612-4DE1-A25B-F19C5850AD71}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WINConnect.DTO", "WINConnect.DTO\WINConnect.DTO.shproj", "{0D819CAE-B2CE-4FE8-BDC2-409FE7C9CC1A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WINConnect.Entity", "WINConnect.Entity\WINConnect.Entity.shproj", "{A84B34B0-AFA0-46AF-B9AB-8F94AC28006A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		WINConnect.Entity\WINConnect.Entity.projitems*{a84b34b0-afa0-46af-b9ab-8f94ac28006a}*SharedItemsImports = 13
+		WINConnect.DTO\WINConnect.DTO.projitems*{0d819cae-b2ce-4fe8-bdc2-409fe7c9cc1a}*SharedItemsImports = 13
+		WINConnect.Common\WINConnect.Common.projitems*{f256a877-1612-4de1-a25b-f19c5850ad71}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
